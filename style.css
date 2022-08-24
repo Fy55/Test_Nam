@@ -1,0 +1,217 @@
+ *{
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 10px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  float: right;
+  width: 20%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: center;
+  width: 5%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* The overlay effect with black background */
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+}
+
+/* The content */
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+/* Close button */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+/* Style the search field */
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.overlay button {
+  float: left;
+  width: 20%;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+.Title
+{
+  text-align: center;
+  font-size: 50px;
+}
+
+.paragraph 
+{
+  font-size: 1.5vw;
+  font-style: normal;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+.nav
+{
+  /*color:#00000;*/
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+.heading3
+{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.parent {
+  position: relative;
+  top: 80px;
+  left: 80px;
+
+}
+
+.img12 {
+  
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  display: block;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+
+}
+.rectangle {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  width: 50%;
+
+ }
+.vector {
+   
+  position: absolute;
+  top: 0;
+  left: 30px;
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 50%;
+ 
+ }
+
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  left: 30px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img8{
+
+  margin:0 auto;
+  display:block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 50%;
+}
+
+.imagegreat{
+
+margin:auto;
+  display:block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 50%;
+
+}
